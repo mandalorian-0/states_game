@@ -9,4 +9,4 @@ class Score:
         self.score += 1
 
     def has_guessed_all(self):
-        return self.score <= 50
+        return self.score < 50
