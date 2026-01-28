@@ -10,9 +10,6 @@ class State(Turtle):
         self.penup()
         self.hideturtle()
 
-        # self.goto(x=x_coor, y=y_coor)
-        # self.write(arg=name) 
-
     def place(self):
         self.goto(x=self.x_coor, y=self.y_coor)
         self.write(arg=self.name) 
